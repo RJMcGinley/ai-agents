@@ -4,7 +4,7 @@ This repository contains a basic implementation of an AI agent loop using LiteLL
 
 The agent repeatedly evaluates user input, selects actions through function calls, executes those actions in Python, and incorporates the results into its ongoing context until a termination condition is reached.
 
-🔁 Core Architecture
+*** Core Architecture ***
 
 The agent operates using a simplified agent loop:
 
@@ -22,7 +22,7 @@ Repeat until termination
 
 This approach enables multi-step reasoning, controlled environment interaction, and adaptive behavior.
 
-🧰 Tools Implemented
+*** Tools Implemented ***
 
 The agent is provided with three tools:
 
@@ -37,7 +37,7 @@ Ends the agent loop and prints a summary message.
 
 Tools are exposed to the LLM using JSON Schema and executed dynamically through a function registry.
 
-📦 Key Features
+*** Key Features ***
 
 Explicit memory management using message history
 
@@ -51,7 +51,7 @@ System-level behavior constraints
 
 Iteration safety limits
 
-🚀 Setup & Usage
+*** Setup & Usage ***
 Install dependencies
 pip install litellm
 
@@ -71,7 +71,7 @@ What would you like me to do?
 
 The agent will autonomously select tools, execute actions, and iterate until the task is complete.
 
-🧠 Concepts Demonstrated
+*** Concepts Demonstrated ***
 
 Stateless LLM behavior and external memory simulation
 
@@ -83,11 +83,11 @@ Function calling for structured responses
 
 Feedback-driven decision making
 
-🎯 Project Purpose
+*** Project Purpose ***
 
 This repository serves as a learning example for building AI agents using modern function calling APIs and iterative control loops. It illustrates how to move beyond single-response chat interactions toward autonomous, tool-driven AI workflows.
 
-📈 Possible Extensions
+*** Possible Extensions ***
 
 Additional task-specific tools
 
